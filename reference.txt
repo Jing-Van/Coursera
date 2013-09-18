@@ -1,2 +1,6 @@
 folowing files are provided by corresponding courses on coursera:
 a1_gui.py
+
+
+for further readings:
+http://www.oakland.edu/enp/readme/
