@@ -1,3 +1,23 @@
+def odd_nums(start,end):
+    #1523 through 10503
+    num=start
+    total=0
+    while num<=10503:
+        #print(num)
+        num=num+2
+        total=total+num
+    print(total)
+    
+def mystery(s):
+    i = 0
+    result = ''
+
+    while not s[i].isdigit():
+        result = result + s[i]
+        i = i + 1
+
+    return result
+
 def get_length(dna):
     """ (str) -> int
 
