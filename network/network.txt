@@ -1,0 +1,5 @@
+1. half-duplex: both direction left to right, right to left but not at the same time
+2. call blocks: program made the call, program halt by the operating system until something happened on the network side
+3. accept* ask someone to sit beside the phone wait it to ring
+   connect* cause the phone to ring
+   recv* 

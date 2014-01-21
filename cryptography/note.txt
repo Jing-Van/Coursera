@@ -1,0 +1,4 @@
+1. alice store file today, read tomororw.
+2. Bob doesn't know who he is talking to, but still response bi-directional
+3. identity of the highest bidder and the price of the 2nd to the highest 
+4. compute on encrypted data without knowning what is in the data

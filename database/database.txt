@@ -1,0 +1,22 @@
+table items
+product_id product_name category price
+1          irene		 A       $15.00
+2          eileen        B       $7.00
+3          edwin	     C       $4.00
+4          jing          A       $16.00
+5          clark         B       $17.00
+6          ailin         A       $13.00
+
+select out the highest value product for each category
+select max(price), category from items group by category
+
+2. difference from truncate to delete
+   delete goes through relations chains, delete more throughly checking can be rolled back
+3. SELECT continent, name, area FROM world x
+  WHERE area >= ALL
+    (SELECT area FROM world y
+        WHERE y.continent=x.continent
+          AND area>0)
+
+ SELECT continent, name, max(area) FROM world 
+group by continent
