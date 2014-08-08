@@ -20,3 +20,4 @@ select max(price), category from items group by category
 
  SELECT continent, name, max(area) FROM world 
 group by continent
+4. DDL DML previleges

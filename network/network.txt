@@ -3,3 +3,6 @@
 3. accept* ask someone to sit beside the phone wait it to ring
    connect* cause the phone to ring
    recv* 
+4. IMP internet message processor
+   IXP internet exchange point
+   
